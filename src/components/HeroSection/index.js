@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Video from "../../videos/money.mp4";
+import Video from "../../videos/video.mp4";
 import {
   HeroContainer,
   HeroBg,
@@ -31,7 +31,13 @@ const Hero = () => {
           payment..
         </HeroContentP>
         <HeroBtnWrapper>
-          <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
+          <Button
+            to="signup"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            primary="true"
+            dark="true"
+          >
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>

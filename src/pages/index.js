@@ -1,7 +1,10 @@
 import React, { useState, UseEffect } from "react";
 import Hero from "../components/HeroSection";
+import InfoSection from "../components/InfoSection";
+import { homeObjOne } from "../components/InfoSection/Data";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
+import infoData from "../components/InfoSection/Data";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +16,11 @@ const Home = () => {
     <>
       <Sidebar isOpen={isOpen} toogle={toogle} />
       <Navbar toogle={toogle} />
+
       <Hero />
+      {infoData.map((data, index) => {
+        return <InfoSection {...data} key={index} />;
+      })}
     </>
   );
 };

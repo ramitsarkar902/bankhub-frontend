@@ -1,0 +1,55 @@
+const data = [
+  {
+    id: "about",
+    lightBg: false,
+    lightText: true,
+    lightTestDesc: true,
+    topLine: "Premium Bank",
+    headLine: "Unlimited Transactions with zero fees",
+    description:
+      "Get access to this exclusive app that allows you to make unlimited transactions without getting charged",
+    buttonLabel: "Get Started",
+    imgStart: true,
+    src: "/images/svg-1.svg",
+    alt: "Car",
+    dark: true,
+    primary: true,
+    darkText: false,
+  },
+  {
+    id: "discover",
+    lightBg: true,
+    lightText: false,
+    lightTestDesc: false,
+    topLine: "Unlimited Access",
+    headLine: "Unlimited Transactions with zero fees",
+    description:
+      "Get access to this exclusive app that allows you to make unlimited transactions without getting charged",
+    buttonLabel: "Learn More",
+    imgStart: true,
+    src: "/images/svg-1.svg",
+    alt: "Car",
+    dark: false,
+    primary: false,
+    darkText: true,
+  },
+  {
+    id: "about",
+    lightBg: false,
+    lightText: true,
+    lightTestDesc: true,
+    topLine: "Premium Bank",
+    headLine: "Unlimited Transactions with zero fees",
+    description:
+      "Get access to this exclusive app that allows you to make unlimited transactions without getting charged",
+    buttonLabel: "Get Started",
+    imgStart: true,
+    src: "/images/svg-1.svg",
+    alt: "Car",
+    dark: true,
+    primary: true,
+    darkText: false,
+  },
+];
+
+export default data;
