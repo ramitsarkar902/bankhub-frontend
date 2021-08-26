@@ -30,6 +30,7 @@ const InfoSection = ({
   primary,
   dark,
   dark2,
+  signinBtn,
 }) => {
   return (
     <>
