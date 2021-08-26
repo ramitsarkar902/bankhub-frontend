@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import infoData from "../components/InfoSection/Data";
 import Services from "../components/Services";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,7 @@ const Home = () => {
         return <InfoSection {...data} key={index} />;
       })}
       <Services />
+      <Footer />
     </>
   );
 };
