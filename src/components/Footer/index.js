@@ -34,7 +34,7 @@ const Footer = () => {
               <FooterLink to="/signin">Investors</FooterLink>
               <FooterLink to="/signin">Terms Of Services</FooterLink>
             </FooterLinkItems>
-            <FooterLinkItems>
+            {/* <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
               <FooterLink to="/signin">About us</FooterLink>
               <FooterLink to="/signin">Testimonials</FooterLink>
@@ -58,7 +58,7 @@ const Footer = () => {
                 Investors
               </FooterLink>
               <FooterLink to="/signin">Terms Of Services</FooterLink>
-            </FooterLinkItems>
+            </FooterLinkItems> */}
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
@@ -67,6 +67,7 @@ const Footer = () => {
             <WebsiteRights>
               Ramit Sarkar @ {new Date().getFullYear} All rights reserved.
             </WebsiteRights>
+            <WebsiteRights>!!UNDER DEVELOPMENT!!</WebsiteRights>
             <SocialIcons>
               <SocialIconLink
                 href="https://www.facebook.com/"

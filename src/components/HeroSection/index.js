@@ -37,6 +37,11 @@ const Hero = () => {
             onMouseLeave={onHover}
             primary="true"
             dark="true"
+            smooth={true}
+            spy={true}
+            duration={500}
+            exact="true"
+            offset={-80}
           >
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>

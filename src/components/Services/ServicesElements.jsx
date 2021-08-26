@@ -23,7 +23,7 @@ export const ServicesWrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   padding: 0 50px;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1500px;
   grid-gap: 16px;
 
   @media screen and (max-width: 1000px) {
@@ -49,7 +49,7 @@ export const ServicesCard = styled.div`
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.03);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }

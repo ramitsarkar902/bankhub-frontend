@@ -36,7 +36,7 @@ export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 16px auto;
+  margin: 16px;
   text-align: left;
   width: 160px;
   box-sizing: border-box;
@@ -50,20 +50,20 @@ export const FooterLinkItems = styled.div`
 `;
 
 export const FooterLinkTitle = styled.h1`
-    font-size-14px;
-    margin-bottom:16px;
-
+  font-size: 24px;
+  margin-bottom: 16px;
 `;
 //use styled.a for href
 export const FooterLink = styled(Link)`
   color: #fff;
   text-decoration: none;
+
   margin-bottom: 0.5rem;
   font-size: 14px;
 
-  $:hover {
-    color: #01bf71;
-    transition: 0.3s ease-out;
+  &:hover {
+    color: #2acad6;
+    transition: 0.3s ease-in-out;
   }
 `;
 
