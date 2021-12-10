@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Preview live app
+Thi project is live at https://ramit-sarkar-bankhub.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
